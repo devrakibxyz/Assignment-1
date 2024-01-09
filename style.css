@@ -379,12 +379,24 @@ input:focus {
 }
 .footer-top-right ul {
   list-style: none;
+  position: relative;
 }
 .footer-top-right ul li {
   font-size: 20px;
   font-weight: 500;
   line-height: 40px;
 }
+i.icon1 {
+  position: absolute;
+  top: 7px;
+  left: -38px;
+}
+i.icon2 {
+  position: absolute;
+  left: -35px;
+  top: 47px;
+}
+
 hr {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -403,6 +415,8 @@ hr {
 }
 .footer-bottom > h2,
 p {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
 }
+
+/* section-9-end */
