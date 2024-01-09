@@ -238,6 +238,7 @@ h5 {
   height: auto;
   margin: 0 auto;
   padding: 100px 0;
+  position: relative;
 }
 .section-6-text {
   text-align: center;
@@ -267,8 +268,22 @@ h5 {
   background-position: center right;
   background-color: #fff;
 }
+.box {
+  position: relative;
+}
+.discount {
+  position: absolute;
+  top: 250px;
+  right: 349px;
+}
+
+.section-6-img-left {
+  z-index: 1;
+  width: 100%;
+}
 .section-6-bottom {
-  background-image: url(./images/Rectangle\ 2.png);
+  position: absolute;
+  bottom: 35px;
 }
 /* section-6-end */
 
@@ -303,10 +318,67 @@ h5 {
   flex-wrap: wrap;
   gap: 20px;
 }
+.img-33:hover .img33 {
+  opacity: 0.3;
+}
+.img33 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-44:hover .img44 {
+  opacity: 0.2;
+}
+.img44 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-55:hover .img55 {
+  opacity: 0.5;
+}
+.img55 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-66:hover .img66 {
+  opacity: 0.4;
+}
+.img66 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-77:hover .img77 {
+  opacity: 0.4;
+}
+.img77 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-88:hover .img88 {
+  opacity: 0.4;
+}
+.img88 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-99:hover .img99 {
+  opacity: 0.7;
+}
+.img99 {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+/* section-7-end */
 
 /* section-8-start */
 
-/* section-8 */
 .section-8 {
   width: 1320px;
   height: auto;
