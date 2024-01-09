@@ -265,8 +265,9 @@ h5 {
   background-image: url("./images/Rectangle\ 1.png");
   background-repeat: no-repeat;
   background-position: center right;
+  background-color: #fff;
 }
-.section-7-bottom {
+.section-6-bottom {
   background-image: url(./images/Rectangle\ 2.png);
 }
 /* section-6-end */
@@ -294,6 +295,13 @@ h5 {
   font-size: 20px;
   line-height: 32px;
   padding-top: 15px;
+}
+
+.section-7-img {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* section-8-start */
